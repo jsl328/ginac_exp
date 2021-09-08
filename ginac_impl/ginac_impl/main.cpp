@@ -18,8 +18,11 @@ using namespace GiNaC;
 void polynomial_expression(){
 
     symbol x("x"), y("y");
+    
     ex PolyInp = 4*pow(x,3)*y + 5*x*pow(y,2) + 3*y- pow(x+y,2) + 2*pow(y+2,2) - 8;
+//    4*x^3*y
     ex Poly = PolyInp.expand();
+    
     for (int i=Poly.ldegree(x);i<=Poly.degree(x);++i)
     {
         cout << "The x^" << i << "-coefficient is "<< Poly.coeff(x,i) << endl;
