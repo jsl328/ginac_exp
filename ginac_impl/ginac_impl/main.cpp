@@ -23,6 +23,7 @@ private:
 //    friend parabola parabolar ;
     
     shared_ptr<std::size_t>size;
+    friend parabola parabolar ;
 };
 
 void polynomial_expression(){
