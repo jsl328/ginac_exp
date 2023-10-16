@@ -20,7 +20,16 @@ private:
     struct parabola {
         
     };
-//    friend parabola parabolar ;
+    friend parabola parabolar ;
+    
+    shared_ptr<std::size_t>size;
+    
+    //int a = 100;
+    //cofficient of the parabolar is zero one quarter
+    //1231
+    //12312123
+    
+    //100
 };
 
 void polynomial_expression(){
@@ -40,8 +49,6 @@ void polynomial_expression(){
 
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-//    std::cout << "Hello, World!\n";
     polynomial_expression();
     return 0;
 }
