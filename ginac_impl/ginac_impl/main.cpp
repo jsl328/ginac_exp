@@ -30,6 +30,9 @@ private:
     //12312123
     
     //100
+    //9102
+    //12019
+    //1290
 };
 
 void polynomial_expression(){
