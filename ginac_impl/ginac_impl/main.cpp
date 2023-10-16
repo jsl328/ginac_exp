@@ -28,6 +28,8 @@ private:
     //cofficient of the parabolar is zero one quarter
     //1231
     //12312123
+    
+    //100
 };
 
 void polynomial_expression(){
@@ -47,8 +49,6 @@ void polynomial_expression(){
 
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-//    std::cout << "Hello, World!\n";
     polynomial_expression();
     return 0;
 }
