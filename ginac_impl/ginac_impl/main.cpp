@@ -20,10 +20,12 @@ private:
     struct parabola {
         
     };
-//    friend parabola parabolar ;
+    friend parabola parabolar ;
     
     shared_ptr<std::size_t>size;
-    friend parabola parabolar ;
+    
+    //int a = 100;
+    //cofficient of the parabolar is zero one quarter
 };
 
 void polynomial_expression(){
