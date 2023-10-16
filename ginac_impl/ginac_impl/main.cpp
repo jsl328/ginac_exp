@@ -15,6 +15,16 @@
 using namespace std;
 using namespace GiNaC;
 
+struct cofficient {
+private:
+    struct parabola {
+        
+    };
+//    friend parabola parabolar ;
+    
+    shared_ptr<std::size_t>size;
+};
+
 void polynomial_expression(){
 
     symbol x("x"), y("y");
